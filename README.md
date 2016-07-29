@@ -2,7 +2,7 @@
 
 Python script to convert the output of ARCS into a format that LINKS can use.
 
-Usage: `python makeTSVfile.py <input ARCS _original.gv file> <output LINKS file> <sequences to scaffold.fa>`
+Usage: `python makeTSVfile.py <ARCS _original.gv file> <output LINKS .tigpair_checkpoint.tsv file> <sequences to scaffold.fa>`
 
 The LINKS output file must be named XXX.tigpair_checkpoint.tsv, where XXX is the base name (-b) in LINKS.
 
