@@ -90,8 +90,8 @@ def writeTSVFile(infile, outfile):
                     string = str(500) + "\t"  + outScaffA + "\t" + outScaffB + "\t" + str(links) + "\t" + str(gap) + "\n"
                     w.write(string)
 
-                    #stringR = str(500) + "\t" + rOutScaffB + "\t" + rOutScaffA + "\t" + str(links) + "\t" + str(gap) + "\n"
-                    #w.write(stringR)
+                    stringR = str(500) + "\t" + rOutScaffB + "\t" + rOutScaffA + "\t" + str(links) + "\t" + str(gap) + "\n"
+                    w.write(stringR)
 
 readGraphFile(infile)
 makeLinksNumbering(scaffolds_fasta)
